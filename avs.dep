@@ -1,0 +1,95 @@
+;	STMicroelectronics dependencies file
+
+[Version]
+Keyword=ST7Project
+Number=1.3
+
+[Root.Source Files.source\adc.c.Config.0]
+ExternDep= source\adc.c  "C:\Program Files (x86)\COSMIC\FSE_Compilers\CXSTM8\HSTM8\mods0.h"  include\stm8s.h include\stm8s_type.h include\stm8s_conf.h include\globals.h  include\gpio.h include\stm8s_it.h include\relay.h include\eeprom.h  include\leds.h include\avs.h include\adc.h include\options.h
+
+[Root.Source Files.source\adc.c.Config.1]
+ExternDep= source\adc.c  "C:\Program Files (x86)\COSMIC\FSE_Compilers\CXSTM8\HSTM8\mods0.h"  include\stm8s.h include\stm8s_type.h include\stm8s_conf.h include\globals.h  include\gpio.h include\stm8s_it.h include\relay.h include\eeprom.h  include\leds.h include\avs.h include\adc.h include\options.h
+
+[Root.Source Files.source\asp.c.Config.0]
+ExternDep= source\asp.c  "C:\Program Files (x86)\COSMIC\FSE_Compilers\CXSTM8\HSTM8\mods0.h"  include\stm8s.h include\stm8s_type.h include\stm8s_conf.h include\timers.h  include\adc.h include\globals.h include\gpio.h include\stm8s_it.h  include\relay.h include\eeprom.h include\leds.h include\avs.h  include\options.h
+
+[Root.Source Files.source\asp.c.Config.1]
+ExternDep= source\asp.c  "C:\Program Files (x86)\COSMIC\FSE_Compilers\CXSTM8\HSTM8\mods0.h"  include\stm8s.h include\stm8s_type.h include\stm8s_conf.h include\timers.h  include\adc.h include\globals.h include\gpio.h include\stm8s_it.h  include\relay.h include\eeprom.h include\leds.h include\avs.h  include\options.h
+
+[Root.Source Files.source\avs.c.Config.0]
+ExternDep= source\avs.c  "C:\Program Files (x86)\COSMIC\FSE_Compilers\CXSTM8\HSTM8\mods0.h"  include\stm8s.h include\stm8s_type.h include\stm8s_conf.h include\timers.h  include\adc.h include\globals.h include\gpio.h include\stm8s_it.h  include\relay.h include\eeprom.h include\leds.h include\avs.h  include\options.h
+
+[Root.Source Files.source\avs.c.Config.1]
+ExternDep= source\avs.c  "C:\Program Files (x86)\COSMIC\FSE_Compilers\CXSTM8\HSTM8\mods0.h"  include\stm8s.h include\stm8s_type.h include\stm8s_conf.h include\timers.h  include\adc.h include\globals.h include\gpio.h include\stm8s_it.h  include\relay.h include\eeprom.h include\leds.h include\avs.h  include\options.h
+
+[Root.Source Files.source\eeprom.c.Config.0]
+ExternDep= source\eeprom.c  "C:\Program Files (x86)\COSMIC\FSE_Compilers\CXSTM8\HSTM8\mods0.h"  include\stm8s.h include\stm8s_type.h include\stm8s_conf.h include\globals.h  include\gpio.h include\stm8s_it.h include\relay.h include\eeprom.h  include\leds.h include\avs.h
+
+[Root.Source Files.source\eeprom.c.Config.1]
+ExternDep= source\eeprom.c  "C:\Program Files (x86)\COSMIC\FSE_Compilers\CXSTM8\HSTM8\mods0.h"  include\stm8s.h include\stm8s_type.h include\stm8s_conf.h include\globals.h  include\gpio.h include\stm8s_it.h include\relay.h include\eeprom.h  include\leds.h include\avs.h
+
+[Root.Source Files.source\gpio.c.Config.0]
+ExternDep= source\gpio.c  "C:\Program Files (x86)\COSMIC\FSE_Compilers\CXSTM8\HSTM8\mods0.h"  include\stm8s.h include\stm8s_type.h include\stm8s_conf.h include\globals.h  include\gpio.h include\stm8s_it.h include\relay.h include\eeprom.h  include\leds.h include\avs.h include\options.h
+
+[Root.Source Files.source\gpio.c.Config.1]
+ExternDep= source\gpio.c  "C:\Program Files (x86)\COSMIC\FSE_Compilers\CXSTM8\HSTM8\mods0.h"  include\stm8s.h include\stm8s_type.h include\stm8s_conf.h include\globals.h  include\gpio.h include\stm8s_it.h include\relay.h include\eeprom.h  include\leds.h include\avs.h include\options.h
+
+[Root.Source Files.source\interrupt priority.c.Config.0]
+ExternDep= "source\interrupt priority.c"  "C:\Program Files (x86)\COSMIC\FSE_Compilers\CXSTM8\HSTM8\mods0.h"  include\stm8s.h include\stm8s_type.h include\stm8s_conf.h include\globals.h  include\gpio.h include\stm8s_it.h include\relay.h include\eeprom.h  include\leds.h include\avs.h
+
+[Root.Source Files.source\interrupt priority.c.Config.1]
+ExternDep= "source\interrupt priority.c"  "C:\Program Files (x86)\COSMIC\FSE_Compilers\CXSTM8\HSTM8\mods0.h"  include\stm8s.h include\stm8s_type.h include\stm8s_conf.h include\globals.h  include\gpio.h include\stm8s_it.h include\relay.h include\eeprom.h  include\leds.h include\avs.h
+
+[Root.Source Files.source\leds.c.Config.0]
+ExternDep= source\leds.c  "C:\Program Files (x86)\COSMIC\FSE_Compilers\CXSTM8\HSTM8\mods0.h"  include\stm8s.h include\stm8s_type.h include\stm8s_conf.h include\globals.h  include\gpio.h include\stm8s_it.h include\relay.h include\eeprom.h  include\leds.h include\avs.h include\options.h
+
+[Root.Source Files.source\leds.c.Config.1]
+ExternDep= source\leds.c  "C:\Program Files (x86)\COSMIC\FSE_Compilers\CXSTM8\HSTM8\mods0.h"  include\stm8s.h include\stm8s_type.h include\stm8s_conf.h include\globals.h  include\gpio.h include\stm8s_it.h include\relay.h include\eeprom.h  include\leds.h include\avs.h include\options.h
+
+[Root.Source Files.source\main.c.Config.0]
+ExternDep= source\main.c  "C:\Program Files (x86)\COSMIC\FSE_Compilers\CXSTM8\HSTM8\mods0.h"  include\stm8s.h include\stm8s_type.h include\stm8s_conf.h include\timers.h  include\adc.h include\globals.h include\gpio.h include\stm8s_it.h  include\relay.h include\eeprom.h include\leds.h include\avs.h  include\options.h
+
+[Root.Source Files.source\main.c.Config.1]
+ExternDep= source\main.c  "C:\Program Files (x86)\COSMIC\FSE_Compilers\CXSTM8\HSTM8\mods0.h"  include\stm8s.h include\stm8s_type.h include\stm8s_conf.h include\timers.h  include\adc.h include\globals.h include\gpio.h include\stm8s_it.h  include\relay.h include\eeprom.h include\leds.h include\avs.h  include\options.h
+
+[Root.Source Files.source\outputvoltage.c.Config.0]
+ExternDep= source\outputvoltage.c  "C:\Program Files (x86)\COSMIC\FSE_Compilers\CXSTM8\HSTM8\mods0.h"  include\stm8s.h include\stm8s_type.h include\stm8s_conf.h include\globals.h  include\gpio.h include\stm8s_it.h include\relay.h include\eeprom.h  include\leds.h include\avs.h include\adc.h include\timers.h include\options.h
+
+[Root.Source Files.source\outputvoltage.c.Config.1]
+ExternDep= source\outputvoltage.c  "C:\Program Files (x86)\COSMIC\FSE_Compilers\CXSTM8\HSTM8\mods0.h"  include\stm8s.h include\stm8s_type.h include\stm8s_conf.h include\globals.h  include\gpio.h include\stm8s_it.h include\relay.h include\eeprom.h  include\leds.h include\avs.h include\adc.h include\timers.h include\options.h
+
+[Root.Source Files.source\relay.c.Config.0]
+ExternDep= source\relay.c  "C:\Program Files (x86)\COSMIC\FSE_Compilers\CXSTM8\HSTM8\mods0.h"  include\stm8s.h include\stm8s_type.h include\stm8s_conf.h include\timers.h  include\adc.h include\globals.h include\gpio.h include\stm8s_it.h  include\relay.h include\eeprom.h include\leds.h include\avs.h  include\options.h
+
+[Root.Source Files.source\relay.c.Config.1]
+ExternDep= source\relay.c  "C:\Program Files (x86)\COSMIC\FSE_Compilers\CXSTM8\HSTM8\mods0.h"  include\stm8s.h include\stm8s_type.h include\stm8s_conf.h include\timers.h  include\adc.h include\globals.h include\gpio.h include\stm8s_it.h  include\relay.h include\eeprom.h include\leds.h include\avs.h  include\options.h
+
+[Root.Source Files.source\stm8s_it.c.Config.0]
+ExternDep= source\stm8s_it.c  "C:\Program Files (x86)\COSMIC\FSE_Compilers\CXSTM8\HSTM8\mods0.h"  include\stm8s_type.h include\timers.h include\globals.h include\gpio.h  include\stm8s_it.h include\stm8s.h include\stm8s_conf.h include\relay.h  include\eeprom.h include\leds.h include\avs.h include\options.h
+
+[Root.Source Files.source\stm8s_it.c.Config.1]
+ExternDep= source\stm8s_it.c  "C:\Program Files (x86)\COSMIC\FSE_Compilers\CXSTM8\HSTM8\mods0.h"  include\stm8s_type.h include\timers.h include\globals.h include\gpio.h  include\stm8s_it.h include\stm8s.h include\stm8s_conf.h include\relay.h  include\eeprom.h include\leds.h include\avs.h include\options.h
+
+[Root.Source Files.source\test.c.Config.0]
+ExternDep= source\test.c  "C:\Program Files (x86)\COSMIC\FSE_Compilers\CXSTM8\HSTM8\mods0.h"  include\stm8s.h include\stm8s_type.h include\stm8s_conf.h include\globals.h  include\gpio.h include\stm8s_it.h include\relay.h include\eeprom.h  include\leds.h include\avs.h include\options.h include\adc.h
+
+[Root.Source Files.source\test.c.Config.1]
+ExternDep= source\test.c  "C:\Program Files (x86)\COSMIC\FSE_Compilers\CXSTM8\HSTM8\mods0.h"  include\stm8s.h include\stm8s_type.h include\stm8s_conf.h include\globals.h  include\gpio.h include\stm8s_it.h include\relay.h include\eeprom.h  include\leds.h include\avs.h include\options.h include\adc.h
+
+[Root.Source Files.source\timers.c.Config.0]
+ExternDep= source\timers.c  "C:\Program Files (x86)\COSMIC\FSE_Compilers\CXSTM8\HSTM8\mods0.h"  include\stm8s.h include\stm8s_type.h include\stm8s_conf.h include\stm8s_it.h  include\timers.h include\globals.h include\gpio.h include\relay.h  include\eeprom.h include\leds.h include\avs.h
+
+[Root.Source Files.source\timers.c.Config.1]
+ExternDep= source\timers.c  "C:\Program Files (x86)\COSMIC\FSE_Compilers\CXSTM8\HSTM8\mods0.h"  include\stm8s.h include\stm8s_type.h include\stm8s_conf.h include\stm8s_it.h  include\timers.h include\globals.h include\gpio.h include\relay.h  include\eeprom.h include\leds.h include\avs.h
+
+[Root.Source Files.source\uart.c.Config.0]
+ExternDep= source\uart.c  "C:\Program Files (x86)\COSMIC\FSE_Compilers\CXSTM8\HSTM8\mods0.h"  include\stm8s.h include\stm8s_type.h include\stm8s_conf.h include\globals.h  include\gpio.h include\stm8s_it.h include\relay.h include\eeprom.h  include\leds.h include\avs.h include\options.h
+
+[Root.Source Files.source\uart.c.Config.1]
+ExternDep= source\uart.c  "C:\Program Files (x86)\COSMIC\FSE_Compilers\CXSTM8\HSTM8\mods0.h"  include\stm8s.h include\stm8s_type.h include\stm8s_conf.h include\globals.h  include\gpio.h include\stm8s_it.h include\relay.h include\eeprom.h  include\leds.h include\avs.h include\options.h
+
+[Root.Source Files.stm8_interrupt_vector.c.Config.0]
+ExternDep= stm8_interrupt_vector.c  "C:\Program Files (x86)\COSMIC\FSE_Compilers\CXSTM8\Hstm8\mods0.h"  include\stm8s_it.h include\stm8s.h include\stm8s_type.h include\stm8s_conf.h
+
+[Root.Source Files.stm8_interrupt_vector.c.Config.1]
+ExternDep= stm8_interrupt_vector.c  "C:\Program Files (x86)\COSMIC\FSE_Compilers\CXSTM8\HSTM8\mods0.h"  include\stm8s_it.h include\stm8s.h include\stm8s_type.h include\stm8s_conf.h

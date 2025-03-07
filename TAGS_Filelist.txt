@@ -1,0 +1,29 @@
+source\adc.c
+source\asp.c
+source\avs.c
+source\eeprom.c
+source\gpio.c
+source\interrupt priority.c
+source\leds.c
+source\main.c
+source\outputvoltage.c
+source\relay.c
+source\stm8s_it.c
+source\test.c
+source\timers.c
+source\uart.c
+stm8_interrupt_vector.c
+include\adc.h
+include\avs.h
+include\eeprom.h
+include\globals.h
+include\gpio.h
+include\leds.h
+include\options.h
+include\relay.h
+include\stm8s.h
+include\stm8s_conf.h
+include\stm8s_it.h
+include\stm8s_type.h
+include\timers.h
+..\..\..\..\program files (x86)\cosmic\fse_compilers\cxstm8\hstm8\mods0.h

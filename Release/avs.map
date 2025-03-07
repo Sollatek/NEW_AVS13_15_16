@@ -1,0 +1,1114 @@
+
+Map of Release\avs.sm8 from link file Release\avs.lkf - Fri Oct 11 20:44:39 2024
+
+
+                               --------
+                               Segments
+                               --------
+
+start 00008080 end 00008333 length   691 segment .const
+start 00008366 end 00009432 length  4300 segment .text
+start 00004000 end 00004000 length     0 segment .eeprom
+start 00000000 end 00000024 length    36 segment .bsct, initialized
+start 00008340 end 00008364 length    36 segment .bsct, from
+start 00000024 end 00000068 length    68 segment .ubsct
+start 000068:0 end 000069:4 length    12 segment .bit, initialized
+start 00008364 end 00008366 length     2 segment .bit, from
+start 0000006a end 0000006a length     0 segment .share
+start 00000100 end 00000100 length     0 segment .data
+start 00000100 end 00000100 length     0 segment .bss
+start 00000000 end 00000c3d length  3133 segment .info.
+start 00008000 end 00008080 length   128 segment .const
+start 00008333 end 00008340 length    13 segment .init
+
+
+                               -------
+                               Modules
+                               -------
+
+C:\Program Files (x86)\COSMIC\FSE_Compilers\CXSTM8\lib\crtsi0.sm8:
+start 00008366 end 000083b6 length    80 section .text
+start 00000100 end 00000100 length     0 section .bss
+start 00000024 end 00000024 length     0 section .ubsct
+start 00000000 end 00000033 length    51 section .info.
+
+Release\adc.o:
+start 00000033 end 000000be length   139 section .info.
+start 000083b6 end 000083ef length    57 section .text
+start ******** end ******** length     0 section .text *** removed ***
+start 000083ef end 00008435 length    70 section .text
+start 00008435 end 0000847b length    70 section .text
+start ******** end ******** length     0 section .const *** removed ***
+start ******** end ******** length     0 section .text *** removed ***
+start 0000847b end 0000849e length    35 section .text
+
+Release\asp.o:
+start 00000000 end 0000000a length    10 section .bsct
+start ******** end ******** length     0 section .ubsct *** removed ***
+start 000000be end 00000149 length   139 section .info.
+start ******** end ******** length     0 section .bit *** removed ***
+start ******** end ******** length     0 section .text *** removed ***
+start ******** end ******** length     0 section .text *** removed ***
+start ******** end ******** length     0 section .text *** removed ***
+start ******** end ******** length     0 section .text *** removed ***
+start ******** end ******** length     0 section .text *** removed ***
+start 0000849e end 000084a1 length     3 section .text
+start ******** end ******** length     0 section .text *** removed ***
+start ******** end ******** length     0 section .text *** removed ***
+start 000084a1 end 000084cc length    43 section .text
+
+Release\avs.o:
+start 0000000a end 0000000b length     1 section .bsct
+start 00000024 end 00000028 length     4 section .ubsct
+start 00000149 end 000001d4 length   139 section .info.
+start 000068:0 end 000068:1 length     1 section .bit
+start 000084cc end 0000853e length   114 section .text
+start 0000853e end 000085ac length   110 section .text
+start 00008080 end 000082da length   602 section .const
+
+Release\eeprom.o:
+start 000001d4 end 00000262 length   142 section .info.
+start ******** end ******** length     0 section .text *** removed ***
+start 000085ac end 0000861e length   114 section .text
+start ******** end ******** length     0 section .text *** removed ***
+
+Release\gpio.o:
+start 00000262 end 000002ee length   140 section .info.
+start 0000861e end 00008672 length    84 section .text
+start 00008672 end 000086a9 length    55 section .text
+start 000086a9 end 000086bf length    22 section .text
+start 000086bf end 000086d4 length    21 section .text
+start ******** end ******** length     0 section .text *** removed ***
+start 000086d4 end 000086e8 length    20 section .text
+start ******** end ******** length     0 section .text *** removed ***
+start 000086e8 end 000086fc length    20 section .text
+start 000086fc end 00008701 length     5 section .text
+start 00008701 end 00008706 length     5 section .text
+start 00008706 end 0000870c length     6 section .text
+start 0000870c end 00008717 length    11 section .text
+start ******** end ******** length     0 section .text *** removed ***
+start ******** end ******** length     0 section .text *** removed ***
+start 00008717 end 00008738 length    33 section .text
+start 00008738 end 00008759 length    33 section .text
+
+Release\interrupt priority.o:
+start 000002ee end 00000388 length   154 section .info.
+start ******** end ******** length     0 section .text *** removed ***
+start ******** end ******** length     0 section .text *** removed ***
+start ******** end ******** length     0 section .text *** removed ***
+start ******** end ******** length     0 section .text *** removed ***
+start ******** end ******** length     0 section .text *** removed ***
+start ******** end ******** length     0 section .text *** removed ***
+start ******** end ******** length     0 section .text *** removed ***
+start ******** end ******** length     0 section .text *** removed ***
+start ******** end ******** length     0 section .text *** removed ***
+start 00008759 end 000087da length   129 section .text
+
+Release\leds.o:
+start ******** end ******** length     0 section .bsct *** removed ***
+start 00000028 end 0000002f length     7 section .ubsct
+start 00000388 end 00000414 length   140 section .info.
+start ******** end ******** length     0 section .bit *** removed ***
+start ******** end ******** length     0 section .text *** removed ***
+start 000087da end 00008877 length   157 section .text
+start ******** end ******** length     0 section .text *** removed ***
+start ******** end ******** length     0 section .text *** removed ***
+start ******** end ******** length     0 section .text *** removed ***
+start ******** end ******** length     0 section .text *** removed ***
+start ******** end ******** length     0 section .text *** removed ***
+start ******** end ******** length     0 section .text *** removed ***
+
+Release\main.o:
+start 0000000b end 0000000c length     1 section .bsct
+start 0000002f end 00000030 length     1 section .ubsct
+start 00000414 end 000004a0 length   140 section .info.
+start 000068:1 end 000068:3 length     2 section .bit
+start 00008877 end 000089ab length   308 section .text
+start 000089ab end 000089ac length     1 section .text
+start 000089ac end 000089b9 length    13 section .text
+start 000089b9 end 000089c6 length    13 section .text
+start 000089c6 end 000089ec length    38 section .text
+start 000089ec end 00008a03 length    23 section .text
+start 00008a03 end 00008a11 length    14 section .text
+start 000082da end 00008311 length    55 section .const
+
+Release\outputvoltage.o:
+start 0000000c end 0000001c length    16 section .bsct
+start 000004a0 end 00000535 length   149 section .info.
+start 000068:3 end 000068:4 length     1 section .bit
+start ******** end ******** length     0 section .const *** removed ***
+start 00008a11 end 00008a12 length     1 section .text
+start ******** end ******** length     0 section .text *** removed ***
+start 00008a12 end 00008a22 length    16 section .text
+start 00008a22 end 00008a30 length    14 section .text
+start 00008a30 end 00008a34 length     4 section .text
+start 00008a34 end 00008a46 length    18 section .text
+start ******** end ******** length     0 section .text *** removed ***
+start ******** end ******** length     0 section .text *** removed ***
+
+Release\relay.o:
+start 0000001c end 0000001d length     1 section .bsct
+start 00000030 end 00000050 length    32 section .ubsct
+start 00000535 end 000005c2 length   141 section .info.
+start 000068:4 end 000068:6 length     2 section .bit
+start 00008a46 end 00008a57 length    17 section .text
+start 00008a57 end 00008af8 length   161 section .text
+start 00008af8 end 00008c03 length   267 section .text
+start 00008311 end 00008319 length     8 section .const
+start 00008c03 end 00008c46 length    67 section .text
+start 00008c46 end 00008c60 length    26 section .text
+start 00008c60 end 00008c82 length    34 section .text
+start 00008c82 end 00008c8d length    11 section .text
+start 00008c8d end 00008d1f length   146 section .text
+start 00008d1f end 00008d2f length    16 section .text
+start 00008d2f end 00008df3 length   196 section .text
+start 00008df3 end 00008e01 length    14 section .text
+start 00008e01 end 00008e18 length    23 section .text
+
+Release\stm8s_it.o:
+start 0000001d end 00000022 length     5 section .bsct
+start 00000050 end 00000053 length     3 section .ubsct
+start 000005c2 end 00000652 length   144 section .info.
+start 00008e18 end 00008e19 length     1 section .text
+start 00008e19 end 00008e1a length     1 section .text
+start 00008e1a end 00008e1b length     1 section .text
+start 00008e1b end 00008e1c length     1 section .text
+start 00008e1c end 00008e1d length     1 section .text
+start 00008e1d end 00008e1e length     1 section .text
+start 00008e1e end 00008e1f length     1 section .text
+start 00008e1f end 00008e20 length     1 section .text
+start 00008e20 end 00008e25 length     5 section .text
+start 00008e25 end 00008e26 length     1 section .text
+start 00008e26 end 00008e27 length     1 section .text
+start 00008e27 end 00008ecc length   165 section .text
+start 00008ecc end 00008ecd length     1 section .text
+start 00008ecd end 00008ed6 length     9 section .text
+start 00008ed6 end 00008ed7 length     1 section .text
+start 00008ed7 end 00008ed8 length     1 section .text
+start 00008ed8 end 00008ed9 length     1 section .text
+start 00008ed9 end 00008eda length     1 section .text
+start 00008eda end 00008edb length     1 section .text
+start 00008edb end 00008f5d length   130 section .text
+start 00008f5d end 00008f5e length     1 section .text
+start 000068:6 end 000069:1 length     3 section .bit
+
+Release\test.o:
+start 00000652 end 000006de length   140 section .info.
+start 000069:1 end 000069:3 length     2 section .bit
+start ******** end ******** length     0 section .text *** removed ***
+start ******** end ******** length     0 section .text *** removed ***
+start 00008f5e end 00008f79 length    27 section .text
+start ******** end ******** length     0 section .const *** removed ***
+
+Release\timers.o:
+start 00000022 end 00000024 length     2 section .bsct
+start 000006de end 0000076c length   142 section .info.
+start 000069:3 end 000069:4 length     1 section .bit
+start ******** end ******** length     0 section .text *** removed ***
+start ******** end ******** length     0 section .text *** removed ***
+start ******** end ******** length     0 section .text *** removed ***
+start ******** end ******** length     0 section .text *** removed ***
+start ******** end ******** length     0 section .text *** removed ***
+start ******** end ******** length     0 section .text *** removed ***
+start ******** end ******** length     0 section .text *** removed ***
+start ******** end ******** length     0 section .text *** removed ***
+start 00008f79 end 00008f8e length    21 section .text
+start 00008f8e end 00008f95 length     7 section .text
+start 00008f95 end 00008faa length    21 section .text
+start 00008faa end 00008fc4 length    26 section .text
+
+Release\uart.o:
+start 00000053 end 0000005e length    11 section .ubsct
+start 0000076c end 000007f8 length   140 section .info.
+start 00008fc4 end 00008fe5 length    33 section .text
+start 00008fe5 end 00008fee length     9 section .text
+start 00008fee end 00009013 length    37 section .text
+start 00008319 end 00008333 length    26 section .const
+start 00009013 end 000090cf length   188 section .text
+start 000090cf end 000090e1 length    18 section .text
+start 000090e1 end 00009179 length   152 section .text
+start 00009179 end 000091ff length   134 section .text
+
+(C:\Program Files (x86)\COSMIC\FSE_Compilers\CXSTM8\lib\libm0.sm8)bmulx.o:
+start 000091ff end 0000920d length    14 section .text
+start 000007f8 end 00000827 length    47 section .info.
+
+(C:\Program Files (x86)\COSMIC\FSE_Compilers\CXSTM8\lib\libm0.sm8)ladc.o:
+start 0000920d end 0000921e length    17 section .text
+start 00000827 end 00000855 length    46 section .info.
+
+(C:\Program Files (x86)\COSMIC\FSE_Compilers\CXSTM8\lib\libm0.sm8)lcmp.o:
+start 0000921e end 0000923e length    32 section .text
+start 00000855 end 00000883 length    46 section .info.
+
+(C:\Program Files (x86)\COSMIC\FSE_Compilers\CXSTM8\lib\libm0.sm8)lgadc.o:
+start 0000923e end 0000924e length    16 section .text
+start 00000883 end 000008b2 length    47 section .info.
+
+(C:\Program Files (x86)\COSMIC\FSE_Compilers\CXSTM8\lib\libm0.sm8)lgadd.o:
+start 0000924e end 00009265 length    23 section .text
+start 000008b2 end 000008e1 length    47 section .info.
+
+(C:\Program Files (x86)\COSMIC\FSE_Compilers\CXSTM8\lib\libm0.sm8)lgursh.o:
+start 00009265 end 00009273 length    14 section .text
+start 000008e1 end 00000911 length    48 section .info.
+
+(C:\Program Files (x86)\COSMIC\FSE_Compilers\CXSTM8\lib\libm0.sm8)lreg.o:
+start 0000005e end 00000062 length     4 section .ubsct
+start 00000911 end 0000093f length    46 section .info.
+
+(C:\Program Files (x86)\COSMIC\FSE_Compilers\CXSTM8\lib\libm0.sm8)lrzmp.o:
+start 00009273 end 00009287 length    20 section .text
+start 0000093f end 0000096e length    47 section .info.
+
+(C:\Program Files (x86)\COSMIC\FSE_Compilers\CXSTM8\lib\libm0.sm8)ltor.o:
+start 00009287 end 00009299 length    18 section .text
+start 0000096e end 0000099c length    46 section .info.
+
+(C:\Program Files (x86)\COSMIC\FSE_Compilers\CXSTM8\lib\libm0.sm8)ludiv.o:
+start 00009299 end 000092ad length    20 section .text
+start 0000099c end 000009cb length    47 section .info.
+
+(C:\Program Files (x86)\COSMIC\FSE_Compilers\CXSTM8\lib\libm0.sm8)ldiv.o:
+start 000092ad end 00009398 length   235 section .text
+start 000009cb end 000009f9 length    46 section .info.
+
+(C:\Program Files (x86)\COSMIC\FSE_Compilers\CXSTM8\lib\libm0.sm8)lgneg.o:
+start 00009398 end 000093ab length    19 section .text
+start 000009f9 end 00000a28 length    47 section .info.
+
+(C:\Program Files (x86)\COSMIC\FSE_Compilers\CXSTM8\lib\libm0.sm8)lneg.o:
+start 000093ab end 000093c0 length    21 section .text
+start 00000a28 end 00000a56 length    46 section .info.
+
+(C:\Program Files (x86)\COSMIC\FSE_Compilers\CXSTM8\lib\libm0.sm8)lumod.o:
+start 000093c0 end 000093da length    26 section .text
+start 00000a56 end 00000a85 length    47 section .info.
+
+(C:\Program Files (x86)\COSMIC\FSE_Compilers\CXSTM8\lib\libm0.sm8)rtol.o:
+start 000093da end 000093ec length    18 section .text
+start 00000a85 end 00000ab3 length    46 section .info.
+
+(C:\Program Files (x86)\COSMIC\FSE_Compilers\CXSTM8\lib\libm0.sm8)utolx.o:
+start 000093ec end 000093f3 length     7 section .text
+start 00000ab3 end 00000ae2 length    47 section .info.
+
+(C:\Program Files (x86)\COSMIC\FSE_Compilers\CXSTM8\lib\libm0.sm8)xreg.o:
+start 00000062 end 00000065 length     3 section .ubsct
+start 00000ae2 end 00000b10 length    46 section .info.
+
+(C:\Program Files (x86)\COSMIC\FSE_Compilers\CXSTM8\lib\libm0.sm8)xymov.o:
+start 000093f3 end 00009432 length    63 section .text
+start 00000b10 end 00000b3f length    47 section .info.
+
+(C:\Program Files (x86)\COSMIC\FSE_Compilers\CXSTM8\lib\libm0.sm8)yreg.o:
+start 00000065 end 00000068 length     3 section .ubsct
+start 00000b3f end 00000b6d length    46 section .info.
+
+Release\stm8_interrupt_vector.o:
+start 00000b6d end 00000c0a length   157 section .info.
+start 00008000 end 00008080 length   128 section .const
+
+
+                             -----------
+                             Stack usage
+                             -----------
+
+Release\adc.o:
+_adcInit                                3   (3)
+_getADCReading                          8   (8)
+_getIntDelay                           16   (8)
+_getPotADC                             16   (8)
+
+Release\asp.o:
+_getASPSensitivityLevel                 2   (2)
+_operateRelay                          11   (4) *** pointer() ***
+
+Release\avs.o:
+_updateAVSState                        12   (4)
+_updateIntDelay                        22   (6)
+
+Release\eeprom.o:
+_writeInternalEEPROM16bit              13   (13)
+
+Release\gpio.o:
+_GPIOinit                               9   (2)
+_GPIOisBitHigh                          5   (5)
+_GPIOsetHigh                            5   (5)
+_GPIOsetInputFloatNoInt                 5   (5)
+_GPIOsetInputPullupInt                  5   (5)
+_GPIOsetInputPullupNoInt                5   (5)
+_GPIOsetLow                             5   (5)
+_GPIOsetOutputPushPull                  5   (5)
+_GPIOtoggle                             5   (5)
+_SevenSegmentGPIOinit                   7   (2)
+_isButtonPressed                        8   (3)
+_isYGlow                                8   (3)
+
+Release\interrupt priority.o:
+_initIntPriorities                      2   (2)
+
+Release\leds.o:
+_handleLEDS                             2   (2)
+
+Release\main.o:
+_errorMode                              2   (2)
+_isCalibrationDone                      2   (2)
+_isFirst30min                           2   (2)
+_main                              >   34   (3)
+_primeIntDelay                          7   (2)
+_releaseIntDelay                        7   (2)
+_setClock                               4   (4)
+
+Release\outputvoltage.o:
+_generateRandomDelay                    2   (2)
+_getCorrectionFactor                    2   (2)
+_isCorrectionFactorBad                  2   (2)
+_measureACPeriod                        4   (4)
+_sampleVoltage                         12   (12)
+
+Release\relay.o:
+_disableRelay1                          7   (2)
+_enableRelay1                           7   (2)
+_getIntDelayStatus                     24   (8)
+_getOffPositionStatus                   2   (2)
+_getSensitivityStatus                  12   (4)
+_initRelay                             15   (8) *** pointer() ***
+_initRelays                            17   (2)
+_processRelay                          28   (4)
+_relayFunction                         12   (5)
+_tempProc                               4   (4)
+_updateRelayTimer                      18   (4)
+_voltageProc                            7   (5)
+
+Release\stm8s_it.o:
+f_ADC1_IRQHandler                  >    6   (6)
+f_AWU_IRQHandler                   >    6   (6)
+f_CLK_IRQHandler                   >    6   (6)
+f_EEPROM_EEC_IRQHandler            >    6   (6)
+f_EXTI_PORTA_IRQHandler            >    6   (6)
+f_EXTI_PORTB_IRQHandler            >    6   (6)
+f_EXTI_PORTC_IRQHandler            >    6   (6)
+f_EXTI_PORTD_IRQHandler            >    6   (6)
+f_EXTI_PORTE_IRQHandler            >    6   (6)
+f_I2C_IRQHandler                   >    6   (6)
+f_NonHandledInterrupt              >    6   (6)
+f_SPI_IRQHandler                   >    6   (6)
+f_TIM1_CAP_COM_IRQHandler          >    6   (6)
+f_TIM1_UPD_OVF_TRG_BRK_IRQHandler  >   33   (17)
+f_TIM2_CAP_COM_IRQHandler          >    6   (6)
+f_TIM2_UPD_OVF_BRK_IRQHandler      >    6   (6)
+f_TIM4_UPD_OVF_IRQHandler          >   34   (16)
+f_TLI_IRQHandler                   >    6   (6)
+f_TRAP_IRQHandler                  >    6   (6)
+f_UART1_RX_IRQHandler              >    6   (6)
+f_UART1_TX_IRQHandler              >    6   (6)
+
+Release\test.o:
+_checkForTestProcedure                 18   (2)
+
+Release\timers.o:
+_enableIWatchDog                        4   (2)
+_resDog                                 2   (2)
+_timer4Init                             2   (2)
+_waitms                                 6   (4)
+
+Release\uart.o:
+_Hex2str                               28   (24)
+_Int2str                               29   (15)
+_TransmitData                          31   (2)
+_UART1_Config                           2   (2)
+_UART1_PutChar                          2   (2)
+_UART1_PutString                        7   (5)
+_convertDigit                           3   (3)
+
+Stack size: 68
+
+
+                              ---------
+                              Call tree
+                              ---------
+   1 > __stext: (0)
+
+   2 > _main: (3)
+   3      + _GPIOinit: (2)
+   4      |    + _GPIOsetInputFloatNoInt: (5)
+   5      |    + _GPIOsetInputPullupInt: (5)
+   6      |    + _GPIOsetInputPullupNoInt: (5)
+   7      |    + _GPIOsetOutputPushPull: (5)
+   8      |    + _SevenSegmentGPIOinit: (2)
+   9      |    |    + _GPIOsetOutputPushPull --> 7
+          |    | 
+          | 
+  10      + _GPIOtoggle: (5)
+  11      + _Hex2str: (24)
+  12      |    + _convertDigit: (3)
+          | 
+  13      + _TransmitData: (2)
+  14      |    + _Hex2str --> 11
+  15      |    + _Int2str: (15)
+  16      |    + _UART1_PutString: (5)
+  17      |    |    + _UART1_PutChar: (2)
+          |    | 
+          | 
+  18      + _UART1_Config: (2)
+  19      + _UART1_PutString --> 16
+  20      + _adcInit: (3)
+  21      + _checkForTestProcedure: (2)
+  22      |    + _getPotADC: (8)
+  23      |    |    + _getADCReading: (8)
+          |    | 
+  24      |    + _isButtonPressed: (3)
+  25      |    |    + _GPIOisBitHigh: (5)
+          |    | 
+  26      |    + _isYGlow: (3)
+  27      |    |    + _GPIOisBitHigh --> 25
+          |    | 
+          | 
+  28      + _enableIWatchDog: (2)
+  29      |    + _resDog: (2)
+          | 
+  30      + _errorMode: (2)
+  31      + _getCorrectionFactor: (2)
+  32      + _handleLEDS: (2)
+  33      + _initIntPriorities: (2)
+  34      + _initRelays: (2)
+  35      |    + _initRelay: (8)
+  36      |    |    + (_disableRelay1) ...
+  37      |    |    + (_enableRelay1) ...
+          |    | 
+          | 
+  38      + _isCalibrationDone: (2)
+  39      + _isCorrectionFactorBad: (2)
+  40      + _isFirst30min: (2)
+  41      + _measureACPeriod: (4)
+  42      + _operateRelay: (4)
+  43      |    + (_disableRelay1) ...
+  44      |    + (_enableRelay1) ...
+          | 
+  45      + _processRelay: (4)
+  46      |    + _getIntDelayStatus: (8)
+  47      |    |    + _getIntDelay: (8)
+  48      |    |    |    + _getADCReading --> 23
+          |    |    | 
+  49      |    |    + _isFirst30min --> 40
+  50      |    |    + _isYGlow --> 26
+          |    | 
+  51      |    + _getOffPositionStatus: (2)
+  52      |    + _getSensitivityStatus: (4)
+  53      |    |    + _getASPSensitivityLevel: (2)
+  54      |    |    + _isYGlow --> 26
+          |    | 
+  55      |    + _tempProc: (4)
+  56      |    + _voltageProc: (5)
+          | 
+  57      + _relayFunction: (5)
+  58      |    + _generateRandomDelay: (2)
+  59      |    + _primeIntDelay: (2)
+  60      |    |    + _GPIOsetLow: (5)
+  61      |    |    + _GPIOsetOutputPushPull --> 7
+          |    | 
+  62      |    + _releaseIntDelay: (2)
+  63      |    |    + _GPIOsetInputFloatNoInt --> 4
+          |    | 
+          | 
+  64      + _resDog --> 29
+  65      + _sampleVoltage: (12)
+  66      + _setClock: (4)
+  67      + _timer4Init: (2)
+  68      + _updateAVSState: (4)
+  69      |    + _isButtonPressed --> 24
+          | 
+  70      + _updateIntDelay: (6)
+  71      |    + _getPotADC --> 22
+          | 
+  72      + _waitms: (4)
+  73      |    + _resDog --> 29
+          | 
+  74      + _writeInternalEEPROM16bit: (13)
+       
+  75 > f_ADC1_IRQHandler: (6)
+
+  76 > f_AWU_IRQHandler: (6)
+
+  77 > f_CLK_IRQHandler: (6)
+
+  78 > f_EEPROM_EEC_IRQHandler: (6)
+
+  79 > f_EXTI_PORTA_IRQHandler: (6)
+
+  80 > f_EXTI_PORTB_IRQHandler: (6)
+
+  81 > f_EXTI_PORTC_IRQHandler: (6)
+
+  82 > f_EXTI_PORTD_IRQHandler: (6)
+
+  83 > f_EXTI_PORTE_IRQHandler: (6)
+
+  84 > f_I2C_IRQHandler: (6)
+
+  85 > f_NonHandledInterrupt: (6)
+
+  86 > f_SPI_IRQHandler: (6)
+
+  87 > f_TIM1_CAP_COM_IRQHandler: (6)
+
+  88 > f_TIM1_UPD_OVF_TRG_BRK_IRQHandler: (17)
+  89      + _getIntDelay --> 47
+  90      + _primeIntDelay --> 59
+  91      + _releaseIntDelay --> 62
+       
+  92 > f_TIM2_CAP_COM_IRQHandler: (6)
+
+  93 > f_TIM2_UPD_OVF_BRK_IRQHandler: (6)
+
+  94 > f_TIM4_UPD_OVF_IRQHandler: (16)
+  95      + _updateRelayTimer: (4)
+       
+  96 > f_TLI_IRQHandler: (6)
+
+  97 > f_TRAP_IRQHandler: (6)
+
+  98 > f_UART1_RX_IRQHandler: (6)
+
+  99 > f_UART1_TX_IRQHandler: (6)
+
+ 100   _GPIOinit --> 3
+
+ 101   _GPIOisBitHigh --> 25
+
+ 102   _GPIOsetHigh: (5)
+
+ 103   _GPIOsetInputFloatNoInt --> 4
+
+ 104   _GPIOsetInputPullupInt --> 5
+
+ 105   _GPIOsetInputPullupNoInt --> 6
+
+ 106   _GPIOsetLow --> 60
+
+ 107   _GPIOsetOutputPushPull --> 7
+
+ 108   _GPIOtoggle --> 10
+
+ 109   _Hex2str --> 11
+
+ 110   _Int2str --> 15
+
+ 111   _SevenSegmentGPIOinit --> 8
+
+ 112   _TransmitData --> 13
+
+ 113   _UART1_Config --> 18
+
+ 114   _UART1_PutChar --> 17
+
+ 115   _UART1_PutString --> 16
+
+ 116   _adcInit --> 20
+
+ 117   _checkForTestProcedure --> 21
+
+ 118   _convertDigit --> 12
+
+ 119   _disableRelay1: (2)
+ 120      + _GPIOsetLow --> 60
+ 121      + _GPIOsetOutputPushPull --> 7
+       
+ 122   _enableIWatchDog --> 28
+
+ 123   _enableRelay1: (2)
+ 124      + _GPIOsetHigh --> 102
+       
+ 125   _errorMode --> 30
+
+ 126   _generateRandomDelay --> 58
+
+ 127   _getADCReading --> 23
+
+ 128   _getASPSensitivityLevel --> 53
+
+ 129   _getCorrectionFactor --> 31
+
+ 130   _getIntDelay --> 47
+
+ 131   _getIntDelayStatus --> 46
+
+ 132   _getOffPositionStatus --> 51
+
+ 133   _getPotADC --> 22
+
+ 134   _getSensitivityStatus --> 52
+
+ 135   _handleLEDS --> 32
+
+ 136   _initIntPriorities --> 33
+
+ 137   _initRelay --> 35
+
+ 138   _initRelays --> 34
+
+ 139   _isButtonPressed --> 24
+
+ 140   _isCalibrationDone --> 38
+
+ 141   _isCorrectionFactorBad --> 39
+
+ 142   _isFirst30min --> 40
+
+ 143   _isYGlow --> 26
+
+ 144   _measureACPeriod --> 41
+
+ 145   _operateRelay --> 42
+
+ 146   _primeIntDelay --> 59
+
+ 147   _processRelay --> 45
+
+ 148   _relayFunction --> 57
+
+ 149   _releaseIntDelay --> 62
+
+ 150   _resDog --> 29
+
+ 151   _sampleVoltage --> 65
+
+ 152   _setClock --> 66
+
+ 153   _tempProc --> 55
+
+ 154   _timer4Init --> 67
+
+ 155   _updateAVSState --> 68
+
+ 156   _updateIntDelay --> 70
+
+ 157   _updateRelayTimer --> 95
+
+ 158   _voltageProc --> 56
+
+ 159   _waitms --> 72
+
+ 160   _writeInternalEEPROM16bit --> 74
+
+
+
+                               -------
+                               Symbols
+                               -------
+
+_GPIObyteState                      ********   *** removed from Release\gpio.o ***
+_GPIOinit                           0000861e   defined in Release\gpio.o section .text
+                                               used in Release\main.o
+_GPIOisBitHigh                      0000870c   defined in Release\gpio.o section .text
+                                               used in Release\test.o
+_GPIOisBitLow                       ********   *** removed from Release\gpio.o ***
+_GPIOsetHigh                        000086fc   defined in Release\gpio.o section .text
+                                               used in Release\leds.o
+                                                       Release\relay.o
+_GPIOsetInputFloatInt               ********   *** removed from Release\gpio.o ***
+_GPIOsetInputFloatNoInt             000086a9   defined in Release\gpio.o section .text
+                                               used in Release\main.o
+_GPIOsetInputPullupInt              000086d4   defined in Release\gpio.o section .text
+_GPIOsetInputPullupNoInt            000086bf   defined in Release\gpio.o section .text
+_GPIOsetLow                         00008706   defined in Release\gpio.o section .text
+                                               used in Release\leds.o
+                                                       Release\main.o
+                                                       Release\relay.o
+_GPIOsetOutputOpenDrain             ********   *** removed from Release\gpio.o ***
+_GPIOsetOutputPushPull              000086e8   defined in Release\gpio.o section .text
+                                               used in Release\main.o
+                                                       Release\relay.o
+_GPIOtoggle                         00008701   defined in Release\gpio.o section .text
+                                               used in Release\main.o
+_Hex2str                            00009013   defined in Release\uart.o section .text
+                                               used in Release\adc.o
+                                                       Release\main.o
+                                                       Release\test.o
+_Int2str                            000090e1   defined in Release\uart.o section .text
+                                               used in Release\test.o
+_IntDelayADCLevel                   00000024   defined in Release\avs.o section .ubsct
+                                               used in Release\relay.o
+_IntDelayADCTable                   00008080   defined in Release\avs.o section .const
+_IntDelaySecs                       00000026   defined in Release\avs.o section .ubsct
+                                               used in Release\main.o
+                                                       Release\relay.o
+_NblinkRED                          ********   *** removed from Release\leds.o ***
+_SensitivityArray                   ********   *** removed from Release\asp.o ***
+_SensitivityArrayPosition           00000007   defined in Release\asp.o section .bsct, initialized
+_SevenSegmentGPIOinit               00008672   defined in Release\gpio.o section .text
+_TIM4counter                        0000001d   defined in Release\stm8s_it.o section .bsct, initialized
+_TransmitData                       00009179   defined in Release\uart.o section .text
+                                               used in Release\main.o
+_UART1_Config                       00008fc4   defined in Release\uart.o section .text
+                                               used in Release\main.o
+_UART1_PutChar                      00008fe5   defined in Release\uart.o section .text
+_UART1_PutString                    00008fee   defined in Release\uart.o section .text
+                                               used in Release\adc.o
+                                                       Release\main.o
+                                                       Release\test.o
+_UpdateLEDState                     ********   *** removed from Release\leds.o ***
+__endmem                            000001ff   defined in command file
+                                               *** not used ***
+__endzp                             00000068   defined in command file section .ubsct
+                                               used in C:\Program Files (x86)\COSMIC\FSE_Compilers\CXSTM8\lib\crtsi0.sm8
+__idesc__                           00008333   defined in linker section .init
+                                               used in C:\Program Files (x86)\COSMIC\FSE_Compilers\CXSTM8\lib\crtsi0.sm8
+__memory                            00000100   defined in command file section .bss
+                                               used in C:\Program Files (x86)\COSMIC\FSE_Compilers\CXSTM8\lib\crtsi0.sm8
+__stack                             000003ff   defined in command file
+                                               used in C:\Program Files (x86)\COSMIC\FSE_Compilers\CXSTM8\lib\crtsi0.sm8
+__startmem                          00000100   defined in command file section .bss
+                                               *** not used ***
+__stext                             00008366   defined in C:\Program Files (x86)\COSMIC\FSE_Compilers\CXSTM8\lib\crtsi0.sm8 section .text
+                                               used in Release\stm8_interrupt_vector.o
+__vectab                            00008000   defined in Release\stm8_interrupt_vector.o section .const
+                                               *** not used ***
+_acVmeasurementOK                   000068:3   defined in Release\outputvoltage.o section .bit, initialized
+                                               used in Release\leds.o
+                                                       Release\relay.o
+                                                       Release\test.o
+_adcInit                            000083b6   defined in Release\adc.o section .text
+                                               used in Release\main.o
+_addEventToSensitivityArray         ********   *** removed from Release\asp.o ***
+_avs_state                          0000000a   defined in Release\avs.o section .bsct, initialized
+                                               used in Release\leds.o
+                                                       Release\relay.o
+_blinkHigh                          ********   *** removed from Release\leds.o ***
+_blinkTimer                         ********   *** removed from Release\leds.o ***
+_checkForTestProcedure              00008f5e   defined in Release\test.o section .text
+                                               used in Release\main.o
+_checkLEDs                          ********   *** removed from Release\leds.o ***
+_checkSensitivityArrays             ********   *** removed from Release\asp.o ***
+_convertDigit                       000090cf   defined in Release\uart.o section .text
+_correctionFactor                   ********   *** removed from Release\outputvoltage.o ***
+_delayGood                          000069:2   defined in Release\test.o section .bit, initialized
+                                               used in Release\stm8s_it.o
+_desiredRelayComb                   00000009   defined in Release\asp.o section .bsct, initialized
+                                               *** not used ***
+_disableRelay1                      00008e01   defined in Release\relay.o section .text
+_enableIWatchDog                    00008f8e   defined in Release\timers.o section .text
+                                               used in Release\main.o
+_enableRelay1                       00008df3   defined in Release\relay.o section .text
+_enterONMode                        000068:4   defined in Release\relay.o section .bit, initialized
+                                               used in Release\asp.o
+_errorMode                          000089ab   defined in Release\main.o section .text
+_errors                             0000000b   defined in Release\main.o section .bsct, initialized
+                                               used in Release\stm8s_it.o
+                                                       Release\test.o
+_exit                               000083b4   defined in C:\Program Files (x86)\COSMIC\FSE_Compilers\CXSTM8\lib\crtsi0.sm8 section .text
+_frequency                          00000010   defined in Release\outputvoltage.o section .bsct, initialized
+                                               used in Release\test.o
+                                                       Release\uart.o
+_generateRandomDelay                00008a22   defined in Release\outputvoltage.o section .text
+                                               used in Release\relay.o
+_getADCReading                      0000847b   defined in Release\adc.o section .text
+_getASPSensitivityLevel             0000849e   defined in Release\asp.o section .text
+                                               used in Release\relay.o
+_getCorrectionFactor                00008a30   defined in Release\outputvoltage.o section .text
+                                               used in Release\main.o
+                                                       Release\test.o
+_getCounterValue                    ********   *** removed from Release\asp.o ***
+_getIntDelay                        000083ef   defined in Release\adc.o section .text
+                                               used in Release\relay.o
+                                                       Release\stm8s_it.o
+                                                       Release\test.o
+_getIntDelayStatus                  00008c8d   defined in Release\relay.o section .text
+_getOffPositionStatus               00008c82   defined in Release\relay.o section .text
+_getPotADC                          00008435   defined in Release\adc.o section .text
+                                               used in Release\avs.o
+                                                       Release\test.o
+_getSensitivityStatus               00008c60   defined in Release\relay.o section .text
+_getTimer2uSec                      ********   *** removed from Release\timers.o ***
+_getVoltageADC                      ********   *** removed from Release\adc.o ***
+_handleLEDS                         000087da   defined in Release\leds.o section .text
+                                               used in Release\main.o
+_handleLEDSInt                      ********   *** removed from Release\leds.o ***
+_hasTimer2Expired                   ********   *** removed from Release\timers.o ***
+_holdus                             ********   *** removed from Release\timers.o ***
+_holdusCtr                          00000022   defined in Release\timers.o section .bsct, initialized
+                                               used in Release\stm8s_it.o
+_initIntPriorities                  00008759   defined in Release\interrupt priority.o section .text
+                                               used in Release\main.o
+_initLEDs                           ********   *** removed from Release\leds.o ***
+_initRelay                          00008a57   defined in Release\relay.o section .text
+_initRelays                         00008a46   defined in Release\relay.o section .text
+                                               used in Release\main.o
+_initSensitivity                    ********   *** removed from Release\asp.o ***
+_intDelayPrimed                     000068:1   defined in Release\main.o section .bit, initialized
+                                               used in Release\relay.o
+_is12Vbad                           ********   *** removed from Release\adc.o ***
+_isAVS13                            000068:2   defined in Release\main.o section .bit, initialized
+                                               *** not used ***
+_isButtonPressed                    00008738   defined in Release\gpio.o section .text
+                                               used in Release\avs.o
+                                                       Release\test.o
+_isCalibrating                      000069:1   defined in Release\test.o section .bit, initialized
+                                               used in Release\stm8s_it.o
+_isCalibrationDone                  000089b9   defined in Release\main.o section .text
+                                               used in Release\test.o
+_isCorrectionFactorBad              00008a34   defined in Release\outputvoltage.o section .text
+                                               used in Release\main.o
+                                                       Release\test.o
+_isDelayBad                         ********   *** removed from Release\test.o ***
+_isFirst30min                       000089ac   defined in Release\main.o section .text
+                                               used in Release\relay.o
+_isSwitchOn                         0000002f   defined in Release\main.o section .ubsct
+                                               used in Release\avs.o
+                                                       Release\leds.o
+                                                       Release\relay.o
+_isVoltageOFF                       ********   *** removed from Release\outputvoltage.o ***
+_isVoltageONok                      ********   *** removed from Release\outputvoltage.o ***
+_isYGlow                            00008717   defined in Release\gpio.o section .text
+                                               used in Release\asp.o
+                                                       Release\relay.o
+                                                       Release\test.o
+_led1                               0000002e   defined in Release\leds.o section .ubsct
+                                               used in Release\main.o
+                                                       Release\test.o
+_led2                               0000002d   defined in Release\leds.o section .ubsct
+                                               used in Release\main.o
+                                                       Release\test.o
+_led3                               0000002c   defined in Release\leds.o section .ubsct
+                                               used in Release\main.o
+                                                       Release\stm8s_it.o
+                                                       Release\test.o
+_led4                               0000002b   defined in Release\leds.o section .ubsct
+                                               used in Release\main.o
+                                                       Release\stm8s_it.o
+                                                       Release\test.o
+_led5                               0000002a   defined in Release\leds.o section .ubsct
+                                               used in Release\main.o
+                                                       Release\test.o
+_led6                               00000029   defined in Release\leds.o section .ubsct
+                                               used in Release\main.o
+                                                       Release\test.o
+_led7                               00000028   defined in Release\leds.o section .ubsct
+                                               used in Release\main.o
+                                                       Release\test.o
+_main                               00008877   defined in Release\main.o section .text
+                                               used in C:\Program Files (x86)\COSMIC\FSE_Compilers\CXSTM8\lib\crtsi0.sm8
+_measureACPeriod                    00008a11   defined in Release\outputvoltage.o section .text
+                                               used in Release\main.o
+                                                       Release\test.o
+_milliSeconds                       00000051   defined in Release\stm8s_it.o section .ubsct
+                                               used in Release\eeprom.o
+_millisecondTicker                  000068:6   defined in Release\stm8s_it.o section .bit, initialized
+                                               used in Release\timers.o
+_minuteTicker                       000069:0   defined in Release\stm8s_it.o section .bit, initialized
+                                               used in Release\main.o
+_minutes                            0000001e   defined in Release\stm8s_it.o section .bsct, initialized
+                                               used in Release\asp.o
+_operateRelay                       000084a1   defined in Release\asp.o section .text
+                                               used in Release\main.o
+_outputVoltage                      0000000c   defined in Release\outputvoltage.o section .bsct, initialized
+                                               used in Release\asp.o
+                                                       Release\avs.o
+                                                       Release\relay.o
+                                                       Release\uart.o
+_period                             0000000e   defined in Release\outputvoltage.o section .bsct, initialized
+                                               used in Release\asp.o
+_primeIntDelay                      000089ec   defined in Release\main.o section .text
+                                               used in Release\relay.o
+                                                       Release\stm8s_it.o
+                                                       Release\test.o
+_processRelay                       00008c46   defined in Release\relay.o section .text
+                                               used in Release\main.o
+_randomSource                       00000012   defined in Release\outputvoltage.o section .bsct, initialized
+                                               *** not used ***
+_randomStandardDelay                0000001c   defined in Release\relay.o section .bsct, initialized
+                                               used in Release\avs.o
+_relay1                             00000030   defined in Release\relay.o section .ubsct
+                                               used in Release\leds.o
+                                                       Release\main.o
+                                                       Release\stm8s_it.o
+                                                       Release\test.o
+                                                       Release\uart.o
+_relay1Set                          ********   *** removed from Release\asp.o ***
+_relay2Set                          ********   *** removed from Release\asp.o ***
+_relay3Set                          ********   *** removed from Release\asp.o ***
+_relayCombination                   00000002   defined in Release\asp.o section .bsct, initialized
+                                               used in Release\uart.o
+_relayFunction                      00008af8   defined in Release\relay.o section .text
+                                               used in Release\main.o
+_releaseIntDelay                    00008a03   defined in Release\main.o section .text
+                                               used in Release\relay.o
+                                                       Release\stm8s_it.o
+                                                       Release\test.o
+_resDog                             00008f95   defined in Release\timers.o section .text
+                                               used in Release\main.o
+                                                       Release\test.o
+_resetTapChangeBlindTime            ********   *** removed from Release\asp.o ***
+_resetTimer2                        ********   *** removed from Release\timers.o ***
+_sampleVoltage                      00008a12   defined in Release\outputvoltage.o section .text
+                                               used in Release\main.o
+                                                       Release\test.o
+_secondTicker                       000068:7   defined in Release\stm8s_it.o section .bit, initialized
+                                               used in Release\main.o
+_seconds                            00000050   defined in Release\stm8s_it.o section .ubsct
+_selectedTapDownVoltage             00000005   defined in Release\asp.o section .bsct, initialized
+_selectedTapUpVoltage               00000003   defined in Release\asp.o section .bsct, initialized
+_sensitivity                        00000008   defined in Release\asp.o section .bsct, initialized
+_setClock                           000089c6   defined in Release\main.o section .text
+_setI2CIntPriority                  ********   *** removed from Release\interrupt priority.o ***
+_setPORTEIntPriority                ********   *** removed from Release\interrupt priority.o ***
+_setTIM2IntPriority                 ********   *** removed from Release\interrupt priority.o ***
+_setTIM3IntPriority                 ********   *** removed from Release\interrupt priority.o ***
+_setTIM4IntPriority                 ********   *** removed from Release\interrupt priority.o ***
+_setUART1RxIntPriority              ********   *** removed from Release\interrupt priority.o ***
+_setUART1TxIntPriority              ********   *** removed from Release\interrupt priority.o ***
+_setUART3RxIntPriority              ********   *** removed from Release\interrupt priority.o ***
+_setUART3TxIntPriority              ********   *** removed from Release\interrupt priority.o ***
+_startTimer2                        ********   *** removed from Release\timers.o ***
+_stopTimer1                         ********   *** removed from Release\timers.o ***
+_stopTimer2                         ********   *** removed from Release\timers.o ***
+_strNum                             00000053   defined in Release\uart.o section .ubsct
+                                               used in Release\adc.o
+                                                       Release\main.o
+                                                       Release\test.o
+_syncOFF                            ********   *** removed from Release\asp.o ***
+_syncON                             ********   *** removed from Release\asp.o ***
+_tapChangeBlindTime                 00000000   defined in Release\asp.o section .bsct, initialized
+                                               used in Release\stm8s_it.o
+_tempProc                           00008d1f   defined in Release\relay.o section .text
+_testProcedure                      ********   *** removed from Release\test.o ***
+_timer1Init                         ********   *** removed from Release\timers.o ***
+_timer2OverflowFlag                 000069:3   defined in Release\timers.o section .bit, initialized
+                                               used in Release\outputvoltage.o
+                                                       Release\stm8s_it.o
+_timer4Init                         00008f79   defined in Release\timers.o section .text
+                                               used in Release\main.o
+_turnLEDOff                         ********   *** removed from Release\leds.o ***
+_turnLEDOn                          ********   *** removed from Release\leds.o ***
+_updateAVSState                     000084cc   defined in Release\avs.o section .text
+                                               used in Release\main.o
+_updateIntDelay                     0000853e   defined in Release\avs.o section .text
+                                               used in Release\main.o
+_updateRelayTimer                   00008c03   defined in Release\relay.o section .text
+                                               used in Release\stm8s_it.o
+_updateSensitivity                  ********   *** removed from Release\asp.o ***
+_voltageProc                        00008d2f   defined in Release\relay.o section .text
+_waitNeg                            ********   *** removed from Release\outputvoltage.o ***
+_waitms                             00008faa   defined in Release\timers.o section .text
+                                               used in Release\leds.o
+                                                       Release\main.o
+                                                       Release\test.o
+_writeFLASH                         ********   *** removed from Release\eeprom.o ***
+_writeInternalEEPROM                ********   *** removed from Release\eeprom.o ***
+_writeInternalEEPROM16bit           000085ac   defined in Release\eeprom.o section .text
+                                               used in Release\main.o
+                                                       Release\test.o
+c_bmulx                             000091ff   defined in (C:\Program Files (x86)\COSMIC\FSE_Compilers\CXSTM8\lib\libm0.sm8)bmulx.o section .text
+                                               used in Release\avs.o
+                                                       Release\timers.o
+c_divsl                             000092ad   defined in (C:\Program Files (x86)\COSMIC\FSE_Compilers\CXSTM8\lib\libm0.sm8)ldiv.o section .text
+                                               *** not used ***
+c_divul                             000092c4   defined in (C:\Program Files (x86)\COSMIC\FSE_Compilers\CXSTM8\lib\libm0.sm8)ldiv.o section .text
+                                               used in (C:\Program Files (x86)\COSMIC\FSE_Compilers\CXSTM8\lib\libm0.sm8)ludiv.o
+                                                       (C:\Program Files (x86)\COSMIC\FSE_Compilers\CXSTM8\lib\libm0.sm8)lumod.o
+c_ladc                              0000920d   defined in (C:\Program Files (x86)\COSMIC\FSE_Compilers\CXSTM8\lib\libm0.sm8)ladc.o section .text
+                                               used in Release\uart.o
+c_lcmp                              0000921e   defined in (C:\Program Files (x86)\COSMIC\FSE_Compilers\CXSTM8\lib\libm0.sm8)lcmp.o section .text
+                                               used in Release\adc.o
+                                                       Release\relay.o
+c_lgadc                             0000923e   defined in (C:\Program Files (x86)\COSMIC\FSE_Compilers\CXSTM8\lib\libm0.sm8)lgadc.o section .text
+                                               used in Release\relay.o
+c_lgadd                             0000924e   defined in (C:\Program Files (x86)\COSMIC\FSE_Compilers\CXSTM8\lib\libm0.sm8)lgadd.o section .text
+                                               used in Release\adc.o
+c_lgneg                             00009398   defined in (C:\Program Files (x86)\COSMIC\FSE_Compilers\CXSTM8\lib\libm0.sm8)lgneg.o section .text
+                                               used in (C:\Program Files (x86)\COSMIC\FSE_Compilers\CXSTM8\lib\libm0.sm8)ldiv.o
+c_lgursh                            00009265   defined in (C:\Program Files (x86)\COSMIC\FSE_Compilers\CXSTM8\lib\libm0.sm8)lgursh.o section .text
+                                               used in Release\adc.o
+                                                       Release\uart.o
+c_lneg                              000093ab   defined in (C:\Program Files (x86)\COSMIC\FSE_Compilers\CXSTM8\lib\libm0.sm8)lneg.o section .text
+                                               used in (C:\Program Files (x86)\COSMIC\FSE_Compilers\CXSTM8\lib\libm0.sm8)ldiv.o
+c_lreg                              0000005e   defined in (C:\Program Files (x86)\COSMIC\FSE_Compilers\CXSTM8\lib\libm0.sm8)lreg.o section .ubsct
+                                               used in Release\main.o
+                                                       Release\stm8s_it.o
+                                                       Release\test.o
+                                                       Release\uart.o
+                                                       (C:\Program Files (x86)\COSMIC\FSE_Compilers\CXSTM8\lib\libm0.sm8)ladc.o
+                                                       (C:\Program Files (x86)\COSMIC\FSE_Compilers\CXSTM8\lib\libm0.sm8)lcmp.o
+                                                       (C:\Program Files (x86)\COSMIC\FSE_Compilers\CXSTM8\lib\libm0.sm8)lgadd.o
+                                                       (C:\Program Files (x86)\COSMIC\FSE_Compilers\CXSTM8\lib\libm0.sm8)lrzmp.o
+                                                       (C:\Program Files (x86)\COSMIC\FSE_Compilers\CXSTM8\lib\libm0.sm8)ltor.o
+                                                       (C:\Program Files (x86)\COSMIC\FSE_Compilers\CXSTM8\lib\libm0.sm8)ldiv.o
+                                                       (C:\Program Files (x86)\COSMIC\FSE_Compilers\CXSTM8\lib\libm0.sm8)lneg.o
+                                                       (C:\Program Files (x86)\COSMIC\FSE_Compilers\CXSTM8\lib\libm0.sm8)lumod.o
+                                                       (C:\Program Files (x86)\COSMIC\FSE_Compilers\CXSTM8\lib\libm0.sm8)rtol.o
+                                                       (C:\Program Files (x86)\COSMIC\FSE_Compilers\CXSTM8\lib\libm0.sm8)utolx.o
+c_lrzmp                             00009273   defined in (C:\Program Files (x86)\COSMIC\FSE_Compilers\CXSTM8\lib\libm0.sm8)lrzmp.o section .text
+                                               used in Release\relay.o
+c_ltor                              00009287   defined in (C:\Program Files (x86)\COSMIC\FSE_Compilers\CXSTM8\lib\libm0.sm8)ltor.o section .text
+                                               used in Release\adc.o
+                                                       Release\relay.o
+                                                       Release\uart.o
+c_ludv                              00009299   defined in (C:\Program Files (x86)\COSMIC\FSE_Compilers\CXSTM8\lib\libm0.sm8)ludiv.o section .text
+                                               used in Release\uart.o
+c_lumd                              000093c0   defined in (C:\Program Files (x86)\COSMIC\FSE_Compilers\CXSTM8\lib\libm0.sm8)lumod.o section .text
+                                               used in Release\relay.o
+                                                       Release\uart.o
+c_rtol                              000093da   defined in (C:\Program Files (x86)\COSMIC\FSE_Compilers\CXSTM8\lib\libm0.sm8)rtol.o section .text
+                                               used in Release\uart.o
+c_uitolx                            000093ec   defined in (C:\Program Files (x86)\COSMIC\FSE_Compilers\CXSTM8\lib\libm0.sm8)utolx.o section .text
+                                               used in Release\adc.o
+                                                       Release\main.o
+                                                       Release\relay.o
+                                                       Release\test.o
+                                                       Release\uart.o
+c_x                                 00000062   defined in (C:\Program Files (x86)\COSMIC\FSE_Compilers\CXSTM8\lib\libm0.sm8)xreg.o section .ubsct
+                                               used in C:\Program Files (x86)\COSMIC\FSE_Compilers\CXSTM8\lib\crtsi0.sm8
+                                                       Release\avs.o
+                                                       Release\stm8s_it.o
+                                                       (C:\Program Files (x86)\COSMIC\FSE_Compilers\CXSTM8\lib\libm0.sm8)bmulx.o
+                                                       (C:\Program Files (x86)\COSMIC\FSE_Compilers\CXSTM8\lib\libm0.sm8)ldiv.o
+                                                       (C:\Program Files (x86)\COSMIC\FSE_Compilers\CXSTM8\lib\libm0.sm8)xymov.o
+c_xymov                             000093f3   defined in (C:\Program Files (x86)\COSMIC\FSE_Compilers\CXSTM8\lib\libm0.sm8)xymov.o section .text
+                                               used in Release\uart.o
+c_y                                 00000065   defined in (C:\Program Files (x86)\COSMIC\FSE_Compilers\CXSTM8\lib\libm0.sm8)yreg.o section .ubsct
+                                               used in C:\Program Files (x86)\COSMIC\FSE_Compilers\CXSTM8\lib\crtsi0.sm8
+                                                       Release\stm8s_it.o
+                                                       Release\timers.o
+f_ADC1_IRQHandler                   00008eda   defined in Release\stm8s_it.o section .text
+                                               used in Release\stm8_interrupt_vector.o
+f_AWU_IRQHandler                    00008e1b   defined in Release\stm8s_it.o section .text
+                                               used in Release\stm8_interrupt_vector.o
+f_CLK_IRQHandler                    00008e1c   defined in Release\stm8s_it.o section .text
+                                               used in Release\stm8_interrupt_vector.o
+f_EEPROM_EEC_IRQHandler             00008f5d   defined in Release\stm8s_it.o section .text
+                                               used in Release\stm8_interrupt_vector.o
+f_EXTI_PORTA_IRQHandler             00008e1d   defined in Release\stm8s_it.o section .text
+                                               used in Release\stm8_interrupt_vector.o
+f_EXTI_PORTB_IRQHandler             00008e1e   defined in Release\stm8s_it.o section .text
+                                               used in Release\stm8_interrupt_vector.o
+f_EXTI_PORTC_IRQHandler             00008e1f   defined in Release\stm8s_it.o section .text
+                                               used in Release\stm8_interrupt_vector.o
+f_EXTI_PORTD_IRQHandler             00008e20   defined in Release\stm8s_it.o section .text
+                                               used in Release\stm8_interrupt_vector.o
+f_EXTI_PORTE_IRQHandler             00008e25   defined in Release\stm8s_it.o section .text
+                                               used in Release\stm8_interrupt_vector.o
+f_I2C_IRQHandler                    00008ed9   defined in Release\stm8s_it.o section .text
+                                               used in Release\stm8_interrupt_vector.o
+f_NonHandledInterrupt               00008e18   defined in Release\stm8s_it.o section .text
+                                               used in Release\stm8_interrupt_vector.o
+f_SPI_IRQHandler                    00008e26   defined in Release\stm8s_it.o section .text
+                                               used in Release\stm8_interrupt_vector.o
+f_TIM1_CAP_COM_IRQHandler           00008ecc   defined in Release\stm8s_it.o section .text
+                                               used in Release\stm8_interrupt_vector.o
+f_TIM1_UPD_OVF_TRG_BRK_IRQHandler   00008e27   defined in Release\stm8s_it.o section .text
+                                               used in Release\stm8_interrupt_vector.o
+f_TIM2_CAP_COM_IRQHandler           00008ed6   defined in Release\stm8s_it.o section .text
+                                               used in Release\stm8_interrupt_vector.o
+f_TIM2_UPD_OVF_BRK_IRQHandler       00008ecd   defined in Release\stm8s_it.o section .text
+                                               used in Release\stm8_interrupt_vector.o
+f_TIM4_UPD_OVF_IRQHandler           00008edb   defined in Release\stm8s_it.o section .text
+                                               used in Release\stm8_interrupt_vector.o
+f_TLI_IRQHandler                    00008e1a   defined in Release\stm8s_it.o section .text
+                                               used in Release\stm8_interrupt_vector.o
+f_TRAP_IRQHandler                   00008e19   defined in Release\stm8s_it.o section .text
+                                               used in Release\stm8_interrupt_vector.o
+f_UART1_RX_IRQHandler               00008ed8   defined in Release\stm8s_it.o section .text
+                                               used in Release\stm8_interrupt_vector.o
+f_UART1_TX_IRQHandler               00008ed7   defined in Release\stm8s_it.o section .text
+                                               used in Release\stm8_interrupt_vector.o
